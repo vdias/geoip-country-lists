@@ -6,10 +6,6 @@ This repository contains daily-updated IPv4 blocklists per country, extracted fr
 
 Each `*.txt` file contains IPv4 CIDR blocks for the respective country code (ISO 3166-1 alpha-2), one per line.
 
-Example:
-CN.txt # China
-RU.txt # Russia
-
 ## License
 
 - MaxMind GeoLite2 © MaxMind, used under license.

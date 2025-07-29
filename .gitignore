@@ -1,0 +1,11 @@
+# Ignore temporary files
+*.zip
+*.csv
+*.bak
+*.tmp
+__MACOSX/
+*.swp
+*.swo
+
+# Ignore log or debug output (if redirected)
+*.log

@@ -9,3 +9,7 @@ __MACOSX/
 
 # Ignore log or debug output (if redirected)
 *.log
+
+# ignore Files
+last_modified.txt
+geoip-fetch.lock

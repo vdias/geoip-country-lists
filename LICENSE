@@ -1,0 +1,49 @@
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)
+
+This repository contains derived data from MaxMind’s GeoLite2 Country database,  
+which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+Full license text is available at:  
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Summary of your rights under this license:
+
+- **You are free to:**
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+- **Under the following terms:**
+  - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+  - ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+  - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+### Attribution
+
+This repository’s data is based on MaxMind’s GeoLite2 database. MaxMind is the original creator and copyright holder.  
+The GeoLite2 database is licensed under CC BY-SA 4.0 by MaxMind.
+
+Please include attribution as follows in any use or redistribution:
+
+> Data derived from MaxMind GeoLite2, available at https://dev.maxmind.com/geoip/geolite2-free-geolocation-data  
+> Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)  
+> https://creativecommons.org/licenses/by-sa/4.0/
+
+---
+
+### Trademark Notice
+
+MaxMind and GeoLite2 are trademarks of MaxMind, Inc. This repository is not affiliated with, endorsed by, or sponsored by MaxMind.
+
+---
+
+### Disclaimer
+
+This data is provided "as-is" without warranties of any kind, express or implied. Use at your own risk.
+
+---
+
+For more information, please visit:  
+https://dev.maxmind.com/geoip/geolite2-free-geolocation-data  
+https://creativecommons.org/licenses/by-sa/4.0/

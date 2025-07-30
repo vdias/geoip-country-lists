@@ -13,3 +13,4 @@ __MACOSX/
 # ignore Files
 last_modified.txt
 geoip-fetch.lock
+IPsum-Level4.etag

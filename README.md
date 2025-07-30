@@ -6,6 +6,9 @@ This repository contains daily-updated IPv4 blocklists per country, extracted an
 
 Each `.txt` file contains IPv4 CIDR blocks for the respective country code (ISO 3166-1 alpha-2), one CIDR block per line. These lists are suitable for use in firewall address lists and network filtering tools.
 
+> **Note:** Currently, only the following countries are included in this repository:  
+> `CN` (China), `RU` (Russia), `IN` (India), `BR` (Brazil), `VN` (Vietnam), `IR` (Iran), `ID` (Indonesia), and `NG` (Nigeria).
+
 ## Use Cases
 
 - MikroTik firewall address-list population
@@ -49,4 +52,3 @@ This data is provided "as-is" without any warranties or guarantees. Use at your 
 ---
 
 *For questions, contributions, or issues, please open an issue or pull request.*
-

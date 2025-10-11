@@ -52,6 +52,7 @@
 :do { add address=101.203.176.0/20 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=101.204.0.0/14 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=101.2.172.0/22 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
+:do { add address=101.2.210.0/23 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=101.224.0.0/13 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=101.232.0.0/15 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=101.234.64.0/21 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
@@ -4120,6 +4121,8 @@
 :do { add address=131.253.12.240/29 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=131.253.12.80/28 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=132.232.0.0/16 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
+:do { add address=13.34.150.192/26 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
+:do { add address=13.34.151.0/26 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=13.34.175.0/26 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=1.34.0.0/32 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
 :do { add address=134.175.0.0/16 list=GeoIP-Block comment="GeoIP-CN" } on-error={}
@@ -8506,6 +8509,7 @@
 :do { add address=103.127.77.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=103.136.43.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=103.145.20.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=103.155.126.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=103.228.2.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=103.31.78.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=103.58.41.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -9262,7 +9266,8 @@
 :do { add address=141.101.217.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=141.101.218.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=141.101.220.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=141.101.224.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=141.101.224.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=141.101.226.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=141.101.228.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=141.101.229.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=141.101.231.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -9419,9 +9424,7 @@
 :do { add address=146.185.234.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=146.185.238.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=146.185.239.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=146.185.240.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=146.185.244.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=146.185.246.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=146.185.240.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=146.185.252.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=146.185.253.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=146.185.254.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -9750,8 +9753,6 @@
 :do { add address=155.117.27.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=155.117.38.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=155.212.0.0/19 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=155.212.128.0/20 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=155.212.144.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=155.212.148.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=155.212.152.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=155.212.154.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -9777,9 +9778,19 @@
 :do { add address=155.94.185.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.109.34.232/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.226.128.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.226.164.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.226.167.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.226.2.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.226.7.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.100.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.102.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.104.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.112.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.117.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.118.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.120.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.124.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.126.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.227.128.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.227.131.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.227.134.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -9794,6 +9805,20 @@
 :do { add address=156.227.158.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.227.199.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.227.216.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.64.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.73.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.74.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.77.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.78.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.80.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.84.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.86.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.88.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.91.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.93.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.95.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.97.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=156.227.98.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.238.130.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.244.216.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=156.244.218.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -11887,7 +11912,6 @@
 :do { add address=185.225.176.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.225.200.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.225.201.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=185.225.203.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.225.32.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.22.60.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.226.128.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -11909,7 +11933,7 @@
 :do { add address=185.229.192.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.229.205.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.229.232.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=185.229.66.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=185.229.66.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.229.8.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.230.140.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.230.142.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -12239,6 +12263,7 @@
 :do { add address=185.37.128.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.37.164.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.37.188.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=185.37.194.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.37.48.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.37.56.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.38.160.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -12248,6 +12273,7 @@
 :do { add address=185.39.112.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.39.132.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.39.148.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=185.39.16.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.39.19.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.39.192.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=185.39.204.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -13313,8 +13339,7 @@
 :do { add address=193.150.32.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=193.150.52.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=193.150.65.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=193.150.70.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=193.150.71.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=193.150.70.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=193.150.80.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=193.150.92.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=193.150.99.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -15400,6 +15425,7 @@
 :do { add address=202.63.50.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=203.31.40.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=203.81.208.0/20 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=204.1.192.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=204.152.199.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=206.246.114.92/32 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=206.71.159.96/27 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -15467,8 +15493,6 @@
 :do { add address=212.115.167.80/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=212.115.172.144/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=212.115.172.240/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=212.115.184.16/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=212.115.184.8/29 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=212.115.48.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=212.115.50.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=212.115.51.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -17327,7 +17351,7 @@
 :do { add address=45.15.157.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=45.15.158.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=45.151.60.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=45.151.70.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=45.151.71.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=45.151.96.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=45.151.97.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=45.151.98.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -18118,7 +18142,7 @@
 :do { add address=46.3.252.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.32.64.0/19 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.3.32.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=46.3.40.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=46.3.40.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.3.4.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.34.128.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.34.132.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -18126,7 +18150,6 @@
 :do { add address=46.34.144.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.34.148.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.34.152.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=46.3.44.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.3.48.0/20 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.35.224.0/19 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=46.36.0.0/19 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -18230,9 +18253,7 @@
 :do { add address=5.101.37.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.101.38.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.101.40.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=5.101.44.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=5.101.46.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=5.101.47.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=5.101.44.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.101.48.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.101.60.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.101.64.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -18400,8 +18421,7 @@
 :do { add address=5.188.52.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.188.56.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.188.60.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=5.188.62.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=5.188.63.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=5.188.62.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.188.68.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.188.7.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=5.188.72.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -19146,6 +19166,7 @@
 :do { add address=79.120.0.0/17 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=79.122.128.0/17 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=79.126.0.0/17 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=79.127.251.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=79.132.96.0/19 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=79.133.104.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=79.133.112.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -20321,7 +20342,6 @@
 :do { add address=88.214.230.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=88.214.236.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=88.214.32.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=88.214.48.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=88.214.50.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=88.215.128.0/18 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=88.218.168.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -21029,7 +21049,9 @@
 :do { add address=91.203.208.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.203.224.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.203.226.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.203.232.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=91.203.232.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=91.203.234.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=91.203.236.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.203.240.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.203.252.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.203.36.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -22001,7 +22023,7 @@
 :do { add address=91.236.140.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.236.14.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.236.148.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.236.154.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=91.236.154.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.236.164.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.236.171.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.236.176.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -22192,10 +22214,7 @@
 :do { add address=91.243.42.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.243.43.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.243.44.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.243.48.0/21 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.243.56.0/22 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.243.60.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
-:do { add address=91.243.62.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=91.243.48.0/20 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.243.80.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.243.82.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=91.243.84.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -22581,6 +22600,7 @@
 :do { add address=93.170.140.144/28 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=93.170.140.160/27 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=93.170.140.192/26 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
+:do { add address=93.170.166.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=93.170.172.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=93.170.174.0/24 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
 :do { add address=93.170.176.0/23 list=GeoIP-Block comment="GeoIP-RU" } on-error={}
@@ -24723,7 +24743,6 @@
 :do { add address=2.176.0.0/12 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
 :do { add address=217.60.15.0/24 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
 :do { add address=217.60.240.0/24 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
-:do { add address=217.60.247.66/32 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
 :do { add address=217.66.192.0/19 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
 :do { add address=217.77.112.0/20 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
 :do { add address=2.57.3.0/24 list=GeoIP-Block comment="GeoIP-IR" } on-error={}
@@ -29287,6 +29306,7 @@
 :do { add address=103.255.80.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.255.8.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.255.96.0/23 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=103.26.10.0/23 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.104.0/21 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.144.248/29 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.144.40/29 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
@@ -29300,7 +29320,8 @@
 :do { add address=103.26.48.0/21 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.56.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.72.0/23 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
-:do { add address=103.26.8.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=103.26.8.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=103.26.9.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.26.96.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.27.120.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=103.27.140.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
@@ -33260,7 +33281,7 @@
 :do { add address=150.228.248.0/21 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=150.230.128.0/20 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=150.230.232.0/21 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
-:do { add address=150.241.244.0/23 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=150.241.244.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=150.242.12.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=150.242.140.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=150.242.148.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
@@ -34730,6 +34751,7 @@
 :do { add address=173.39.0.0/18 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=173.39.64.0/19 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=173.44.32.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=173.82.84.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=173.83.211.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=174.138.120.0/22 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=175.100.128.0/19 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
@@ -35043,7 +35065,9 @@
 :do { add address=180.87.159.0/25 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=180.87.159.128/28 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=180.87.159.144/29 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
-:do { add address=180.87.159.152/29 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=180.87.159.152/31 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=180.87.159.154/31 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
+:do { add address=180.87.159.156/30 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=180.87.159.160/27 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=180.87.159.192/26 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
 :do { add address=180.87.160.0/24 list=GeoIP-Block comment="GeoIP-IN" } on-error={}
@@ -39231,7 +39255,6 @@
 :do { add address=104.132.13.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.132.68.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.133.211.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=104.133.246.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.133.66.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.134.129.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.134.158.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -40095,6 +40118,7 @@
 :do { add address=104.30.166.175/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.30.166.176/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.30.167.45/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=104.30.167.71/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.30.176.128/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.30.176.25/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=104.30.176.33/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41176,6 +41200,7 @@
 :do { add address=140.99.164.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=14.102.230.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=14.102.55.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=141.101.225.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=141.11.128.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=141.11.72.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=141.193.151.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41235,6 +41260,7 @@
 :do { add address=143.14.14.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=143.14.176.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=143.14.240.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=143.14.244.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=143.14.247.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=143.20.0.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=143.202.0.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41420,6 +41446,7 @@
 :do { add address=148.222.206.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=148.222.208.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=148.222.216.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=148.227.108.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=148.227.122.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=148.227.124.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=148.227.78.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41521,6 +41548,7 @@
 :do { add address=151.244.40.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=151.245.113.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=151.245.114.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=151.245.229.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=151.245.242.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=151.245.94.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=151.245.96.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41623,8 +41651,6 @@
 :do { add address=154.212.143.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=154.212.157.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=154.212.158.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=154.212.24.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=154.212.26.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=154.221.54.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=154.221.56.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=154.223.134.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41721,15 +41747,15 @@
 :do { add address=156.235.122.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.124.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.16.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=156.235.48.0/20 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=156.235.48.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=156.235.56.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=156.235.62.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.70.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.72.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.75.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.76.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.79.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=156.235.80.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=156.235.84.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=156.235.86.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=156.235.85.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.88.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.235.92.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=156.246.179.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41790,7 +41816,6 @@
 :do { add address=157.240.226.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=157.254.54.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=157.254.94.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=157.52.101.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=157.52.70.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=157.52.85.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=157.56.235.120/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -41960,6 +41985,7 @@
 :do { add address=162.158.224.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=162.158.253.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=162.158.50.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=162.159.103.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=162.18.32.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=162.18.38.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=162.18.47.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -43149,6 +43175,7 @@
 :do { add address=172.253.234.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=17.250.104.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=17.253.10.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=172.62.69.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=172.68.11.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=172.68.113.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=172.68.114.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -43484,6 +43511,7 @@
 :do { add address=177.234.160.0/19 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=177.235.0.0/16 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=177.24.0.0/13 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=177.255.234.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=177.2.64.0/18 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=177.3.0.0/19 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=177.3.128.0/20 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -44479,6 +44507,7 @@
 :do { add address=187.15.80.0/20 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=187.15.96.0/19 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=187.16.0.0/12 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=187.166.94.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=187.180.0.0/14 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=187.191.96.0/19 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=187.2.0.0/15 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -45749,6 +45778,10 @@
 :do { add address=196.56.55.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=196.57.55.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=196.58.55.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=196.59.142.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=196.59.144.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=196.59.152.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=196.59.156.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=197.19.143.185/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=198.1.195.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=198.13.16.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -45777,6 +45810,7 @@
 :do { add address=199.100.0.0/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.0.104/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.0.112/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=199.100.0.128/31 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.0.144/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.0.160/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.0.176/31 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -45833,6 +45867,7 @@
 :do { add address=199.100.2.0/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.20.32/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.20.48/30 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=199.100.20.52/31 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.20.64/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.20.96/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=199.100.2.112/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -46165,6 +46200,7 @@
 :do { add address=200.189.16.48/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=200.189.16.64/26 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=200.189.20.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=200.189.22.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=200.189.24.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=200.189.28.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=200.189.32.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -47193,6 +47229,7 @@
 :do { add address=216.26.239.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=216.26.240.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=216.26.242.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=216.28.243.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=216.28.246.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=216.6.112.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=216.6.29.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -47240,7 +47277,7 @@
 :do { add address=2.21.241.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=2.21.246.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=2.21.3.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=2.21.66.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=2.21.66.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=2.21.73.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=2.21.84.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=2.22.224.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -47524,6 +47561,7 @@
 :do { add address=32.59.181.64/27 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=32.59.181.96/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=32.59.18.48/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=32.59.18.90/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=32.59.1.96/27 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=32.59.2.48/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=32.59.2.96/27 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -47897,7 +47935,7 @@
 :do { add address=38.9.210.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=38.9.215.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=38.9.4.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=38.9.54.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=38.99.63.184/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=39.196.177.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=40.100.38.192/26 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=40.100.39.0/25 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -48824,8 +48862,9 @@
 :do { add address=45.192.3.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.194.124.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.194.41.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=45.194.64.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.194.67.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=45.194.69.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=45.194.96.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.195.162.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.195.255.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.196.225.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -48839,6 +48878,7 @@
 :do { add address=45.202.69.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.202.70.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.202.72.0/23 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=45.202.79.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.223.5.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.224.0.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=45.224.108.0/22 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -49863,6 +49903,7 @@
 :do { add address=66.54.147.240/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=66.54.147.40/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=66.54.150.112/30 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
+:do { add address=66.54.151.160/28 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=66.7.131.100/30 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=66.7.134.104/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=66.7.134.48/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -49946,7 +49987,6 @@
 :do { add address=72.60.2.182/32 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=72.60.48.0/20 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=72.61.128.0/21 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
-:do { add address=74.118.221.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=74.118.222.0/24 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=74.163.0.0/16 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
 :do { add address=74.199.138.88/29 list=GeoIP-Block comment="GeoIP-BR" } on-error={}
@@ -51255,6 +51295,8 @@
 :do { add address=104.30.164.28/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=104.30.166.228/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=104.30.167.23/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=104.30.167.68/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=104.30.167.76/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=104.30.176.115/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=107.151.140.0/24 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=107.151.169.0/24 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
@@ -52257,7 +52299,15 @@
 :do { add address=204.1.144.0/20 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=206.214.76.0/24 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=208.127.111.0/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.112/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=208.127.111.127/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.128/25 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.16/28 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.2/31 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.32/27 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.4/30 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.8/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=208.127.111.96/28 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=208.127.168.128/26 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=208.127.211.0/24 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=208.127.218.129/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
@@ -52524,6 +52574,7 @@
 :do { add address=67.220.152.40/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=67.220.153.128/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=67.220.158.32/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
+:do { add address=69.31.131.112/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=69.31.131.8/29 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=69.85.92.0/24 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
 :do { add address=72.14.201.135/32 list=GeoIP-Block comment="GeoIP-VN" } on-error={}
@@ -57661,13 +57712,14 @@
 :do { add address=202.154.176.0/20 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.112.0/21 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.120.0/23 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
-:do { add address=202.155.12.0/23 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
+:do { add address=202.155.12.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.122.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.123.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.124.0/22 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.128.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.129.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.130.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
+:do { add address=202.155.13.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.131.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.132.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=202.155.133.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
@@ -58399,6 +58451,7 @@
 :do { add address=37.140.152.0/25 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=37.140.156.0/25 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.106.187.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
+:do { add address=38.109.10.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.129.9.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.150.100.0/22 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.156.95.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
@@ -58437,7 +58490,7 @@
 :do { add address=38.47.178.0/23 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.47.180.0/22 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.47.184.0/22 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
-:do { add address=38.47.190.0/23 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
+:do { add address=38.47.190.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.47.64.0/19 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.52.146.0/23 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
 :do { add address=38.52.148.0/24 list=GeoIP-Block comment="GeoIP-ID" } on-error={}
@@ -59412,7 +59465,11 @@
 :do { add address=154.113.23.76/31 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
 :do { add address=154.113.23.78/32 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
 :do { add address=154.113.23.79/32 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
-:do { add address=154.113.23.80/28 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
+:do { add address=154.113.23.80/31 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
+:do { add address=154.113.23.82/32 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
+:do { add address=154.113.23.83/32 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
+:do { add address=154.113.23.84/30 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
+:do { add address=154.113.23.88/29 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
 :do { add address=154.113.23.96/27 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
 :do { add address=154.113.24.0/21 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
 :do { add address=154.113.32.0/19 list=GeoIP-Block comment="GeoIP-NG" } on-error={}
